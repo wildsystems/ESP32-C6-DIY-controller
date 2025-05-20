@@ -1,0 +1,96 @@
+esphome:
+  name: waterflowsensor
+  friendly_name: Water flow sensor
+  on_boot:
+    then:
+      - pulse_counter.set_total_pulses:
+          id: water_pulsecounter
+          value: !lambda 'return id(global_watertotal);'
+  on_shutdown:
+    then:
+      - globals.set:
+          id: global_watertotal
+          value: !lambda 'return id(water_total).state;'
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+  level: DEBUG
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "Jw9+MgL/uDZoltCAtw6VXpbPTeqXSm5Zs/XAtUQYhfY="
+  services:
+    - service: set_pulse_total
+      variables:
+        new_pulse_total: int
+      then:
+        - pulse_counter.set_total_pulses:
+            id: water_pulsecounter
+            value: !lambda 'return new_pulse_total;'
+
+ota:
+  platform: esphome
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+# Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esphome-SamsungWaterPump"
+
+#captive_portal:
+
+# Individual sensors
+sensor:
+  - platform: pulse_counter
+    pin: 
+      number: GPIO2 # Any digital input
+      mode:
+        input: true
+#        pullup: true
+    # inverted: true
+    id: water_pulsecounter
+    unit_of_measurement: 'L/min'
+    accuracy_decimals: 0
+    name: 'Water flow'
+    filters:
+      - lambda: return (x / 396); # 396 = 6,6 * 60
+    update_interval: 5s
+    total:
+      unit_of_measurement: 'L'
+      name: 'Total water usage'
+      accuracy_decimals: 0
+      icon: "mdi:water"
+      device_class: water
+      id: water_total
+      filters:
+      - lambda: return (x / 396); # 396 = 6,6 * 60
+
+globals:
+  - id: global_watertotal
+    type: int
+    restore_value: true
+
+time:
+  - platform: sntp
+    on_time:
+      # Every 10 minutes
+        - seconds: 0
+          minutes: /10
+          then:
+          - globals.set:
+              id: global_watertotal
+              value: !lambda 'return id(water_total).state;'
+web_server:
+  ota: false
+  local: true
+  
+button:
+  - platform: factory_reset
+    name: Restart with Factory Default Settings
