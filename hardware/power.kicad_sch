@@ -5,113 +5,6 @@
 	(uuid "442c2187-9639-43a3-ab93-97cab3c85f0f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2572,18 +2465,6 @@
 		(uuid "36b3b9b5-2cdc-4eee-9985-f4b07771f3ea")
 	)
 	(junction
-		(at 156.21 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4de8b158-6043-4d53-8b85-ab2a2120f4e7")
-	)
-	(junction
-		(at 196.85 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54a7112a-a2d7-45d5-aa7f-17cc6d641484")
-	)
-	(junction
 		(at 207.01 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2739,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 156.21 71.12)
+			(xy 151.13 71.12) (xy 157.48 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2776,16 +2657,6 @@
 			(type default)
 		)
 		(uuid "12a0ed3a-810d-4540-ad4b-62236f3a86ce")
-	)
-	(wire
-		(pts
-			(xy 167.64 95.25) (xy 196.85 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1454e415-4b36-4a48-9305-5fe37a1e427d")
 	)
 	(wire
 		(pts
@@ -2916,16 +2787,6 @@
 			(type default)
 		)
 		(uuid "4c42be54-c69b-40f2-ad90-2e16955697e3")
-	)
-	(wire
-		(pts
-			(xy 156.21 66.04) (xy 156.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7928fd-3387-45c6-9ab5-9ac6488feffc")
 	)
 	(wire
 		(pts
@@ -3229,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 95.25) (xy 212.09 95.25)
+			(xy 167.64 95.25) (xy 212.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3349,16 +3210,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 71.12) (xy 157.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec60d27d-95b5-4386-8146-78746c9b88ab")
-	)
-	(wire
-		(pts
 			(xy 53.34 107.95) (xy 53.34 113.03)
 		)
 		(stroke
@@ -3396,6 +3247,27 @@
 			(type default)
 		)
 		(uuid "fed3bcf8-f958-4968-b12d-3add62dc32bd")
+	)
+	(label "24V"
+		(at 33.02 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5d9a821-9358-40b2-ab60-b39f86ab5b2c")
+		(property "Netclass" "Power"
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "24V_FUSED"
 		(shape output)
@@ -3514,6 +3386,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 40.64 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47f25a89-aa66-402e-af28-44b2b88451a7")
 		)
@@ -3539,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154f84e6-0843-4d95-8242-40a1d8e7963b")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 77.851 113.4688 0)
 			(effects
 				(font
@@ -3593,6 +3537,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" "565-EMHB500ARA681MMH0S-ND"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c11c0e2a-8d68-4805-b988-99b2c810f970")
 		)
@@ -3602,7 +3618,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "167bbc15-c551-451c-9af4-feede583fb74")
-		(property "Reference" "D25"
+		(property "Reference" "D3"
 			(at 40.64 114.935 90)
 			(effects
 				(font
@@ -3671,6 +3687,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 46.99 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad1dacba-1284-41fb-a309-968b5950def0")
 		)
@@ -3680,7 +3768,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D25")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7f8369-57a6-4da0-a9b0-df3e830a8567")
-		(property "Reference" "R42"
+		(property "Reference" "R14"
 			(at 229.108 104.1978 0)
 			(effects
 				(font
@@ -3741,7 +3829,79 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17659"
+		(property "LCSC Part #" "C17544"
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 227.33 105.41 0)
 			(effects
 				(font
@@ -3759,7 +3919,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "R42")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3775,7 +3935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "311063a6-6210-4d0f-9337-a6acf62ee558")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 148.59 106.045 0)
 			(effects
 				(font
@@ -3825,7 +3985,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3841,7 +4001,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "41c5c73e-a624-4e3f-9740-7e7e505f3cce")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 28.6512 118.1678 0)
 			(effects
 				(font
@@ -3859,7 +4019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -3895,6 +4055,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bd3fc0c-5f3b-494c-b481-4f914f3536b1")
 		)
@@ -3904,7 +4136,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3965,7 +4197,79 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23733"
+		(property "LCSC Part #" "C87998"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -3999,7 +4303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1bce88-c6fb-4cc1-bfb5-88eeb26145fa")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 131.191 116.8979 0)
 			(effects
 				(font
@@ -4053,6 +4357,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fdff9bb-a040-4147-bab1-8b9aabf320f8")
 		)
@@ -4062,83 +4438,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eee59ce-a22a-4180-a9e8-d3ddbb21afff")
-		(property "Reference" "TP3"
-			(at 198.247 90.7358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 198.247 93.1601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c2044eb-cdf4-407a-b8c2-2ef38671ecbe")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "TP3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4154,7 +4454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510bb8e4-1d0e-40e0-9394-3f35bf4f76cf")
-		(property "Reference" "D29"
+		(property "Reference" "D5"
 			(at 229.108 96.5143 90)
 			(effects
 				(font
@@ -4217,6 +4517,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 227.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7d76bd6-9781-42a5-a8dc-9bccd3031f47")
 		)
@@ -4226,7 +4598,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D29")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6afd4846-84b4-4575-a59e-01bf8b1ddd16")
-		(property "Reference" "R44"
+		(property "Reference" "R15"
 			(at 240.538 82.6078 0)
 			(effects
 				(font
@@ -4287,7 +4659,79 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17659"
+		(property "LCSC Part #" "C17544"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 238.76 83.82 0)
 			(effects
 				(font
@@ -4305,7 +4749,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "R44")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ada1b8-ad28-4587-a06e-b61e2cf60bda")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -4371,7 +4815,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4387,7 +4831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874fbe14-e339-4203-bd5f-4ffa4577b660")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 220.98 96.52 0)
 			(effects
 				(font
@@ -4437,7 +4881,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5f6baa-4995-4317-824d-73d0506cf8b4")
-		(property "Reference" "D28"
+		(property "Reference" "D6"
 			(at 240.538 73.6543 90)
 			(effects
 				(font
@@ -4516,6 +4960,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75204607-00e2-48d4-b69c-cb63eb9c029a")
 		)
@@ -4525,7 +5041,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D28")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4541,7 +5057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cbc046-219f-46fe-be57-eac29a403545")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 220.98 69.215 0)
 			(effects
 				(font
@@ -4591,7 +5107,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4607,7 +5123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d9969b-3eca-463d-8dd9-0e1728d0d8cd")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 215.011 111.8179 0)
 			(effects
 				(font
@@ -4661,6 +5177,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87847210-e657-4780-b01d-97435130e556")
 		)
@@ -4670,7 +5258,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4731,6 +5319,78 @@
 		)
 		(property "LCSC Part #" "C139249"
 			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 209.55 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5513,79 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "LCSC Part #"
+		(property "LCSC Part #" "C20966"
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -4938,6 +5670,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 111.76 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e49e0f35-143b-4f78-8dcb-54b7bc6003ca")
 		)
@@ -4963,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f775ef-9afd-4cc2-8763-d33c0e3a9996")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -5013,7 +5817,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2016c68-b8cb-43ce-9123-8d0cab489cb4")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 179.07 102.5355 0)
 			(effects
 				(font
@@ -5081,6 +5885,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9402c9b7-31ad-40d6-98a2-6556563f885e")
 		)
@@ -5093,7 +5969,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6037763-fd48-47dc-9f27-8c70cd128e48")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 212.09 99.06 0)
 			(effects
 				(font
@@ -5159,7 +6035,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5175,7 +6051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8dbc5d-704d-4566-b150-d67759528025")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 223.901 76.2578 0)
 			(effects
 				(font
@@ -5220,7 +6096,79 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C15850"
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -5238,83 +6186,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 156.21 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d594c5fa-4398-4d97-b918-63267f971ffd")
-		(property "Reference" "TP2"
-			(at 157.607 61.5258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_USB"
-			(at 157.607 63.9501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 161.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 156.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 156.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a001a8c-4fca-4a42-b9c4-becd3968e906")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "TP2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5329,7 +6201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daf3621b-e969-4fbc-abac-361ca9e08878")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 101.981 116.8979 0)
 			(effects
 				(font
@@ -5383,6 +6255,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GMC31X7R475K50NT"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" "4713-GMC31X7R475K50NTCT-ND"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56f80ce6-e79e-4765-8a45-90fd00eb52ec")
 		)
@@ -5392,7 +6336,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5408,7 +6352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0295b6f-1e14-4498-b5e6-c0a8abd5ec24")
-		(property "Reference" "D27"
+		(property "Reference" "D4"
 			(at 161.6075 65.7057 0)
 			(effects
 				(font
@@ -5424,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 66.675 0)
 			(effects
 				(font
@@ -5451,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3033976"
+		(property "LCSC Part #" "C191023"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -5460,7 +6404,70 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3033976 "
+		(property "Description_1" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -5478,7 +6485,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D27")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5546,6 +6553,78 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 60.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38e77a35-2bf2-4513-956a-f9e50620c7be")
 		)
@@ -5571,7 +6650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca209bb-a8f7-4c92-8e9c-c65a3893dcbe")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 36.83 137.16 0)
 			(effects
 				(font
@@ -5621,83 +6700,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 238.76 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1f490f2-2599-4378-ace2-83d98d73affb")
-		(property "Reference" "TP4"
-			(at 240.157 66.6058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 240.157 69.0301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2adcc7c-6743-44b6-a3ea-a249c2ba975a")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "TP4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5758,6 +6761,78 @@
 			)
 		)
 		(property "LCSC Part #" "C477918"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 195.58 73.66 0)
 			(effects
 				(font
