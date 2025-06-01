@@ -22,21 +22,20 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 
 ## ⚙️ Example Pin Assignment (ESP32-C6-MINI-1 Safe GPIOs)
 
-| Function                | GPIO Pin | Notes                                       |
+| Function                | GPIO Pin | Notes                                      |
 |------------------------|----------|---------------------------------------------|
 | NTC1 (analog in)       | GPIO1    | ADC1 channel                                |
 | NTC2                   | GPIO3    | ADC1 channel                                |
 | NTC3                   | GPIO4    | ADC1 channel                                |
 | NTC4                   | GPIO5    | ADC1 channel                                |
-| DHT21 (digital in)     | GPIO6    | 10k pull-up to 3.3V                          |
-| DS18B20 (1-Wire)       | GPIO7    | 4.7k pull-up                                 |
-| Flow Sensor (input)    | GPIO10   | Interrupt on rising edge                    |
-| PWM Input              | GPIO11   | Timer capture capable                       |
-| PWM Output             | GPIO12   | LEDC or MCPWM output                        |
-| Relay 1 (output)       | GPIO13   | Load control                                |
-| Relay 2                | GPIO14   | Load control                                |
-| USB D+                 | GPIO20   | Native USB data+ (shared with UART RX)      |
-| USB D−                 | GPIO19   | Native USB data−                            |
+| DHT21 / DS18B20        | GPIO6    | 4.7k pull-up to 3.3V                        |
+| Flow Sensor (input)    | GPIO7    | Interrupt on rising edge                    |
+| PWM Input              | GPIO14   | Timer capture capable                       |
+| PWM Output             | GPIO15   | LEDC or MCPWM output                        |
+| Relay 1 (output)       | GPIO18   | Load control                                |
+| Relay 2                | GPIO19   | Load control                                |
+| USB D+                 | GPIO13   | Native USB data+ (shared with UART RX)      |
+| USB D−                 | GPIO12   | Native USB data−                            |
 
 ---
 
