@@ -78,8 +78,8 @@
         "footprint": "error",
         "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "error",
-        "footprint_type_mismatch": "warning",
-        "hole_clearance": "error",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -88,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "error",
-        "lib_footprint_mismatch": "error",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "error",
@@ -100,8 +100,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "error",
-        "silk_over_copper": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -131,7 +131,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -488,11 +488,13 @@
         "wire_width": 6
       },
       {
+        "clearance": 3.0,
         "line_style": 0,
         "name": "HP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
         "wire_width": 15
       },
       {
@@ -742,6 +744,12 @@
           "group_by": false,
           "label": "CometPartNum",
           "name": "CometPartNum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         }
       ],

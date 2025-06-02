@@ -5,7 +5,7 @@
 	(uuid "442c2187-9639-43a3-ab93-97cab3c85f0f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x02_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -47,13 +47,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -74,21 +82,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -97,9 +117,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -109,7 +130,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -127,7 +148,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -3483,7 +3504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154f84e6-0843-4d95-8242-40a1d8e7963b")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 77.851 113.4688 0)
 			(effects
 				(font
@@ -3618,7 +3639,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "167bbc15-c551-451c-9af4-feede583fb74")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 40.64 114.935 90)
 			(effects
 				(font
@@ -3768,7 +3789,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3784,7 +3805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7f8369-57a6-4da0-a9b0-df3e830a8567")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 229.108 104.1978 0)
 			(effects
 				(font
@@ -3919,7 +3940,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3992,17 +4013,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 27.94 118.11 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "41c5c73e-a624-4e3f-9740-7e7e505f3cce")
-		(property "Reference" "J6"
-			(at 28.6512 118.1678 0)
+		(property "Reference" "J5"
+			(at 27.2288 118.1678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4031,7 @@
 			)
 		)
 		(property "Value" "24V_Power"
-			(at 28.6512 120.5921 0)
+			(at 27.2288 120.5921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -4037,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -4127,6 +4147,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2915639"
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bd3fc0c-5f3b-494c-b481-4f914f3536b1")
 		)
@@ -4136,7 +4165,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e54c14-4504-4ae1-bf34-543a8600f41f")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 176.911 73.7178 0)
 			(effects
 				(font
@@ -4287,7 +4316,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1bce88-c6fb-4cc1-bfb5-88eeb26145fa")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 131.191 116.8979 0)
 			(effects
 				(font
@@ -4438,7 +4467,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510bb8e4-1d0e-40e0-9394-3f35bf4f76cf")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 229.108 96.5143 90)
 			(effects
 				(font
@@ -4598,7 +4627,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4614,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6afd4846-84b4-4575-a59e-01bf8b1ddd16")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 240.538 82.6078 0)
 			(effects
 				(font
@@ -4749,7 +4778,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5f6baa-4995-4317-824d-73d0506cf8b4")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 240.538 73.6543 90)
 			(effects
 				(font
@@ -5041,7 +5070,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5123,7 +5152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d9969b-3eca-463d-8dd9-0e1728d0d8cd")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 215.011 111.8179 0)
 			(effects
 				(font
@@ -5258,7 +5287,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5618,7 +5647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b16d102d-6264-41dc-b6aa-88aec3d7fec3")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 111.76 103.3004 90)
 			(effects
 				(font
@@ -5751,7 +5780,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5833,7 +5862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2016c68-b8cb-43ce-9123-8d0cab489cb4")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 179.07 102.5355 0)
 			(effects
 				(font
@@ -5969,7 +5998,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6051,7 +6080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8dbc5d-704d-4566-b150-d67759528025")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 223.901 76.2578 0)
 			(effects
 				(font
@@ -6186,7 +6215,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6201,7 +6230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daf3621b-e969-4fbc-abac-361ca9e08878")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 101.981 116.8979 0)
 			(effects
 				(font
@@ -6336,7 +6365,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0295b6f-1e14-4498-b5e6-c0a8abd5ec24")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 161.6075 65.7057 0)
 			(effects
 				(font
@@ -6485,7 +6514,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e05e122b-698b-49fb-a808-3ef741262142")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 60.96 103.3004 90)
 			(effects
 				(font
@@ -6634,7 +6663,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd639bfb-6767-467a-968b-098439ab2245")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 195.58 65.7057 0)
 			(effects
 				(font
@@ -6859,7 +6888,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44/e81e9ebb-b95f-4963-a7bf-ac73a3dd4d4b"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
