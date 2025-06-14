@@ -4190,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/10V"
+		(property "Value" "10uF/10V"
 			(at 176.911 76.1421 0)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 174.9552 78.74 0)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C87998"
+		(property "LCSC Part #" "C577214"
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 223.901 78.6821 0)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 221.9452 81.28 0)
 			(effects
 				(font

@@ -1,0 +1,21 @@
+{
+    "layout": {
+        "hspace": "1mm",
+        "vspace": "1mm",
+        "rows": "3",
+        "cols": "2",
+        "vbonecut": "False"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railslr"
+    },
+    "fiducials": {
+        "type": "4fid"
+    },
+    "copperfill": {
+        "type": "solid"
+    }
+}
