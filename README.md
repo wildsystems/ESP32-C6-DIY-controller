@@ -36,7 +36,6 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 | Relay 2                | GPIO19   | Load control                                |
 | USB D+                 | GPIO13   | Native USB data+ (shared with UART RX)      |
 | USB D−                 | GPIO12   | Native USB data−                            |
-
 ---
 
 ## 📝 Notes
@@ -70,3 +69,7 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 - OTA updates
 - Web interface for configuration and monitoring
 - EEPROM or NVS-based configuration storage
+
+## ToDo:
+PCB: New with at least 0.2mm track width
+NTC: Improve stability and reading

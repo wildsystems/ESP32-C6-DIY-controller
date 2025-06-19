@@ -492,9 +492,16 @@
         "line_style": 0,
         "name": "HP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.0,
+        "wire_width": 15
+      },
+      {
+        "name": "NTC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 15
       },
       {
@@ -506,7 +513,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.6,
@@ -536,6 +543,30 @@
       "/COM2": [
         "HP"
       ],
+      "/IO0": [
+        "NTC"
+      ],
+      "/IO1": [
+        "NTC"
+      ],
+      "/IO2": [
+        "NTC"
+      ],
+      "/IO20": [
+        "NTC"
+      ],
+      "/IO21": [
+        "NTC"
+      ],
+      "/IO3": [
+        "NTC"
+      ],
+      "/IO4": [
+        "NTC"
+      ],
+      "/IO5": [
+        "NTC"
+      ],
       "/NC1": [
         "HP"
       ],
@@ -549,6 +580,9 @@
         "HP"
       ],
       "/Power/24V": [
+        "Power"
+      ],
+      "Net-(U1-IN)": [
         "Power"
       ]
     },
@@ -789,7 +823,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

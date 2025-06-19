@@ -5,496 +5,6 @@
 	(uuid "606c32de-c78d-4f57-8623-12dddfc87e44")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x06_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
 				(offset 1.016)
@@ -904,6 +414,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1137,6 +837,293 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TC2030"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2030"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect’s 6-pins connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Debug plug-of-nails"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC2030_1_1"
+				(rectangle
+					(start -2.54 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.762 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.302 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2262,257 +2249,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Capacitor_AKL:C_0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_0805"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0805_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0805_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.381 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -1.651 0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.635 1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.651 -0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0805_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_0805_1_2"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Diode_AKL:1N4148W"
 			(pin_numbers
 				(hide yes)
@@ -3078,6 +2814,438 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Transistor_BJT_Pre-Biased_AKL:PDTD123YK"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.715 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PDTD123YK"
+				(at 5.715 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SC-59"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/00d100fbe85007aed9283e335777de9e/PDTD123Y_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN SC-59 Pre-Biased transistor, 50V, 500mA, 250mW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NPN BRT pre-biased PDTD123YK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PDTD123YK_0_1"
+				(rectangle
+					(start -4.445 1.905)
+					(end -1.27 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 0)
+					(end 0.635 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PDTD123YK_0_2"
+				(polyline
+					(pts
+						(xy -4.318 1.27) (xy -4.064 1.778) (xy -3.556 0.762) (xy -3.048 1.778) (xy -2.54 0.762) (xy -2.032 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.778) (xy -1.524 0.762) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.889) (xy 0.508 -0.381) (xy 0 -0.127)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy -0.508 -2.921) (xy 0.508 -2.413) (xy -0.508 -1.905) (xy 0.508 -1.397) (xy -0.508 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PDTD123YK_1_0"
+				(rectangle
+					(start -6.35 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -6.35 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -3.81) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.794) (xy 1.905 -0.254)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.635) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy 3.048 0) (xy 3.556 -1.016) (xy 2.54 -0.508) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "2.2k"
+					(at -2.794 2.794 0)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(text "10k"
+					(at -1.524 -1.524 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "PDTD123YK_1_1"
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PDTD123YK_1_2"
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4931,250 +5099,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5881,7 +5805,7 @@
 	)
 	(rectangle
 		(start 73.66 111.76)
-		(end 123.19 153.67)
+		(end 123.19 156.21)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5965,7 +5889,7 @@
 	)
 	(rectangle
 		(start 17.78 111.76)
-		(end 67.31 153.67)
+		(end 67.31 156.21)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5977,7 +5901,7 @@
 	)
 	(rectangle
 		(start 17.78 171.45)
-		(end 55.88 196.85)
+		(end 44.45 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6079,10 +6003,10 @@
 		(uuid "f343f2d9-a802-42ab-9a05-075f769c0259")
 	)
 	(junction
-		(at 24.13 189.23)
+		(at 245.11 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05f3f0b5-42ad-4064-b264-19eefc184b36")
+		(uuid "0b8d2e35-7c92-406a-8c87-c78c0dedce89")
 	)
 	(junction
 		(at 163.83 181.61)
@@ -6095,12 +6019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12ee6620-2ef9-4ac8-8e27-3bb43442d825")
-	)
-	(junction
-		(at 45.72 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "153c59b6-9a09-48dd-be9a-e29552fb4643")
 	)
 	(junction
 		(at 238.76 81.28)
@@ -6119,12 +6037,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9b1bae-697f-48d5-a597-93a680b6fb20")
-	)
-	(junction
-		(at 251.46 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aef14b1-ed92-4d91-8a47-946d7a5824d1")
 	)
 	(junction
 		(at 142.24 35.56)
@@ -6163,10 +6075,22 @@
 		(uuid "3e6b76d7-e577-4075-ad15-95908165234a")
 	)
 	(junction
+		(at 24.13 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f26291d-87fa-4847-936b-b594e4dad53c")
+	)
+	(junction
 		(at 125.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "453a3f28-6083-4c48-a06e-09afb64e9cc6")
+	)
+	(junction
+		(at 251.46 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b407af9-19cf-4e62-b852-b630a171a4e1")
 	)
 	(junction
 		(at 46.99 48.26)
@@ -6179,6 +6103,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d351570-cf92-4f5f-8c01-91440cf5d486")
+	)
+	(junction
+		(at 132.08 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61312e16-43ef-4258-a905-90acc6033fbc")
 	)
 	(junction
 		(at 255.27 66.04)
@@ -6253,12 +6183,6 @@
 		(uuid "aeb18103-62f6-4451-bda9-9169f6bb28aa")
 	)
 	(junction
-		(at 125.73 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b26c272c-7864-4549-89fb-a06873206a48")
-	)
-	(junction
 		(at 63.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6277,10 +6201,10 @@
 		(uuid "b9a94eae-3161-44d7-972d-e7376ac6924e")
 	)
 	(junction
-		(at 247.65 29.21)
+		(at 248.92 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c08615c7-de20-4f0f-b20c-3ac709c4a1e5")
+		(uuid "c3072fd9-f5c4-4779-b44b-7decc5de07c7")
 	)
 	(junction
 		(at 228.6 69.85)
@@ -6295,12 +6219,6 @@
 		(uuid "c71d5e30-0e86-4e61-b8a4-c87930ea8a6a")
 	)
 	(junction
-		(at 245.11 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c784deee-debe-4862-9129-11535b5be9fd")
-	)
-	(junction
 		(at 257.81 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6311,12 +6229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc965f54-4ae8-4259-a98a-3e4ab673512f")
-	)
-	(junction
-		(at 132.08 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd0c7d23-c8dc-4891-a424-a51ec839ec03")
 	)
 	(junction
 		(at 142.24 27.94)
@@ -6362,7 +6274,7 @@
 	)
 	(no_connect
 		(at 182.88 72.39)
-		(uuid "2b9238df-9e9a-417b-a19b-3cf8265a51a5")
+		(uuid "537a960b-d541-43d3-9f3d-6dfbbe206a32")
 	)
 	(no_connect
 		(at 59.69 77.47)
@@ -6371,6 +6283,14 @@
 	(no_connect
 		(at 24.13 85.09)
 		(uuid "6e84727f-2642-406e-97ee-5d1f433d42a8")
+	)
+	(no_connect
+		(at 182.88 74.93)
+		(uuid "718c085d-a5db-4807-b18c-f1593de79727")
+	)
+	(no_connect
+		(at 144.78 57.15)
+		(uuid "78dd9570-57f6-435c-9b16-590a3aaab4e2")
 	)
 	(no_connect
 		(at 59.69 90.17)
@@ -6398,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 189.23) (xy 24.13 189.23)
+			(xy 20.32 189.23) (xy 26.67 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6415,26 +6335,6 @@
 			(type default)
 		)
 		(uuid "05de23e3-28b6-4f22-8ad6-900af21c368a")
-	)
-	(wire
-		(pts
-			(xy 24.13 189.23) (xy 26.67 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063f6e92-f550-4a0f-8b8e-2e44fae3e350")
-	)
-	(wire
-		(pts
-			(xy 245.11 29.21) (xy 247.65 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083dbfbd-9669-466a-8df4-1756339de514")
 	)
 	(wire
 		(pts
@@ -6548,16 +6448,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 179.07) (xy 26.67 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e04b0a-0b19-446c-85dc-b7f36d4475f8")
-	)
-	(wire
-		(pts
 			(xy 144.78 67.31) (xy 149.86 67.31)
 		)
 		(stroke
@@ -6608,7 +6498,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 176.53) (xy 48.26 176.53)
+			(xy 20.32 173.99) (xy 26.67 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6728,6 +6618,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 191.77) (xy 24.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aafae2e-5985-4fbd-a297-53e1526ec7b6")
+	)
+	(wire
+		(pts
 			(xy 228.6 81.28) (xy 238.76 81.28)
 		)
 		(stroke
@@ -6788,6 +6688,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 181.61) (xy 66.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3356417a-0cb6-40a5-98cf-c7233d66c24b")
+	)
+	(wire
+		(pts
 			(xy 58.42 146.05) (xy 64.77 146.05)
 		)
 		(stroke
@@ -6795,6 +6705,16 @@
 			(type default)
 		)
 		(uuid "351c20bc-efe0-45a8-aa32-02d7aed51439")
+	)
+	(wire
+		(pts
+			(xy 87.63 179.07) (xy 87.63 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364bcd87-7b8d-4ce9-b3d2-5d14ed071d72")
 	)
 	(wire
 		(pts
@@ -6858,6 +6778,26 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 191.77) (xy 24.13 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f281bb-d10a-4e66-b0a1-4214144a8403")
+	)
+	(wire
+		(pts
+			(xy 20.32 179.07) (xy 26.67 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4305f3da-5070-4dda-abd1-67bfb44e9088")
+	)
+	(wire
+		(pts
 			(xy 274.32 83.82) (xy 255.27 83.82)
 		)
 		(stroke
@@ -6895,16 +6835,6 @@
 			(type default)
 		)
 		(uuid "452c214c-d7b7-44d3-8423-b3d5dbca02c4")
-	)
-	(wire
-		(pts
-			(xy 238.76 29.21) (xy 245.11 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a37536-deef-416f-89d7-f660e26b5910")
 	)
 	(wire
 		(pts
@@ -7058,16 +6988,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 132.08 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f9255e-9cd3-4f76-96df-b2dc280a741e")
-	)
-	(wire
-		(pts
 			(xy 245.11 29.21) (xy 245.11 36.83)
 		)
 		(stroke
@@ -7198,23 +7118,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 142.24) (xy 87.63 142.24)
+			(xy 77.47 139.7) (xy 82.55 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66e87de3-4c5f-44e3-9a12-4b74d3cfbbce")
-	)
-	(wire
-		(pts
-			(xy 41.91 189.23) (xy 45.72 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66fecfd4-fa55-4c65-8c98-c939f700a1e9")
 	)
 	(wire
 		(pts
@@ -7278,13 +7188,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 189.23) (xy 48.26 189.23)
+			(xy 83.82 181.61) (xy 78.74 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d619af3-4387-4b44-a08b-45f8da46659c")
+		(uuid "6c83f894-998d-4034-8c92-f64b67cfad3e")
 	)
 	(wire
 		(pts
@@ -7338,16 +7248,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 29.21) (xy 251.46 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722ba2b8-3fad-4cd9-a0ba-3863f6d6c12a")
-	)
-	(wire
-		(pts
 			(xy 15.24 30.48) (xy 21.59 30.48)
 		)
 		(stroke
@@ -7398,13 +7298,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 179.07) (xy 48.26 179.07)
+			(xy 238.76 29.21) (xy 245.11 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "782e4b48-b5e1-401f-87a1-34a9a177f9c0")
+		(uuid "78f2959c-af00-4c53-b05f-455d904b3716")
 	)
 	(wire
 		(pts
@@ -7488,6 +7388,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83549a8e-91ec-4d0f-9693-cc5a37afe590")
+	)
+	(wire
+		(pts
 			(xy 142.24 35.56) (xy 156.21 35.56)
 		)
 		(stroke
@@ -7548,6 +7458,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 176.53) (xy 26.67 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6182ff-be43-47da-ac40-e57781dede15")
+	)
+	(wire
+		(pts
 			(xy 81.28 59.69) (xy 87.63 59.69)
 		)
 		(stroke
@@ -7565,6 +7485,16 @@
 			(type default)
 		)
 		(uuid "8e9abe49-7214-447a-ae9d-ccc7a6c66444")
+	)
+	(wire
+		(pts
+			(xy 251.46 29.21) (xy 257.81 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91548350-f96e-4b80-9d28-01853d4677f2")
 	)
 	(wire
 		(pts
@@ -7588,16 +7518,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 39.37 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b182c4-98b6-43a6-b7de-4605e1a9f620")
-	)
-	(wire
-		(pts
 			(xy 257.81 35.56) (xy 257.81 29.21)
 		)
 		(stroke
@@ -7615,6 +7535,16 @@
 			(type default)
 		)
 		(uuid "99029a7c-69ae-4a5b-8e6e-3292fb2206f3")
+	)
+	(wire
+		(pts
+			(xy 24.13 191.77) (xy 26.67 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b76ece9-60d2-43c3-8370-08773134be35")
 	)
 	(wire
 		(pts
@@ -7718,16 +7648,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 247.65 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72807d4-0d8d-4a63-a050-aba66f751dbd")
-	)
-	(wire
-		(pts
 			(xy 180.34 62.23) (xy 182.88 62.23)
 		)
 		(stroke
@@ -7775,26 +7695,6 @@
 			(type default)
 		)
 		(uuid "ab126802-e9fa-461c-a08b-23e341dcf257")
-	)
-	(wire
-		(pts
-			(xy 251.46 29.21) (xy 247.65 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab642d50-06fe-45a7-b1d3-eb8f859874da")
-	)
-	(wire
-		(pts
-			(xy 41.91 186.69) (xy 48.26 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0d02b9-66d8-4707-a241-c10f748c296f")
 	)
 	(wire
 		(pts
@@ -7908,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 179.07) (xy 87.63 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25fd482-6a4a-468c-9db0-7c828a5fb07a")
+	)
+	(wire
+		(pts
 			(xy 81.28 80.01) (xy 85.09 80.01)
 		)
 		(stroke
@@ -7928,13 +7838,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 133.35) (xy 39.37 133.35)
+			(xy 46.99 133.35) (xy 41.91 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5c35061-620e-4394-ac76-99bcd31ea746")
+	)
+	(wire
+		(pts
+			(xy 132.08 27.94) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60fc700-f587-48e5-902b-a5ba2d1d46cc")
 	)
 	(wire
 		(pts
@@ -7988,6 +7908,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 176.53) (xy 83.82 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec94d28-fb0a-4bc3-9633-221cedf8784c")
+	)
+	(wire
+		(pts
 			(xy 21.59 82.55) (xy 21.59 99.06)
 		)
 		(stroke
@@ -7995,16 +7925,6 @@
 			(type default)
 		)
 		(uuid "c05d9213-fae0-4067-bfbf-5b3240466b6c")
-	)
-	(wire
-		(pts
-			(xy 20.32 176.53) (xy 26.67 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c250a32b-cf74-431c-b1cc-c61b4a1734c7")
 	)
 	(wire
 		(pts
@@ -8058,16 +7978,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 184.15) (xy 48.26 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65d1617-21d7-4e7e-815d-cb7fd671d9a1")
-	)
-	(wire
-		(pts
 			(xy 180.34 74.93) (xy 182.88 74.93)
 		)
 		(stroke
@@ -8108,16 +8018,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 190.5) (xy 24.13 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0178288-06f7-4100-b6d8-5dc44c9ee9fa")
-	)
-	(wire
-		(pts
 			(xy 62.23 80.01) (xy 71.12 80.01)
 		)
 		(stroke
@@ -8125,16 +8025,6 @@
 			(type default)
 		)
 		(uuid "d1d62e40-cef2-4f03-8c6b-a7e47d96bf10")
-	)
-	(wire
-		(pts
-			(xy 132.08 27.94) (xy 142.24 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42c9f0a-f262-4ee6-b866-367c4e3a4cc8")
 	)
 	(wire
 		(pts
@@ -8168,13 +8058,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 142.24) (xy 31.75 142.24)
+			(xy 24.13 139.7) (xy 29.21 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d99db72f-48b0-4436-a118-ba8a83d38c4d")
+	)
+	(wire
+		(pts
+			(xy 245.11 29.21) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da18d44d-0830-44d3-9bb0-0fea75df0f22")
 	)
 	(wire
 		(pts
@@ -8235,6 +8135,16 @@
 			(type default)
 		)
 		(uuid "ddedbaca-8eb0-4892-8bfd-4b891be13173")
+	)
+	(wire
+		(pts
+			(xy 248.92 29.21) (xy 251.46 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5c80e8-9fd3-42df-a74b-5bdc00cc8a3e")
 	)
 	(wire
 		(pts
@@ -8325,6 +8235,16 @@
 			(type default)
 		)
 		(uuid "e413d39c-3954-4a14-83a3-224ef5327d17")
+	)
+	(wire
+		(pts
+			(xy 60.96 176.53) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f8ec11-ea51-4e7d-b667-47f0c8a7bc3e")
 	)
 	(wire
 		(pts
@@ -8428,6 +8348,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 179.07) (xy 66.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee731fbf-e40f-4a1a-9fee-a08aa6d14b2a")
+	)
+	(wire
+		(pts
 			(xy 114.3 146.05) (xy 120.65 146.05)
 		)
 		(stroke
@@ -8495,26 +8425,6 @@
 			(type default)
 		)
 		(uuid "f4fc7cf9-43f9-43bd-837d-348ede5c712a")
-	)
-	(wire
-		(pts
-			(xy 41.91 181.61) (xy 48.26 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5328ff0-0f36-416c-9f41-6a7a90b2787b")
-	)
-	(wire
-		(pts
-			(xy 95.25 133.35) (xy 95.25 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f955f0de-87b0-46e6-bbd6-981dfae5a03f")
 	)
 	(wire
 		(pts
@@ -8596,6 +8506,16 @@
 		)
 		(uuid "0dbdb5ac-4bdb-414f-b322-4f4611d4446f")
 	)
+	(label "RXD0"
+		(at 60.96 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1567f6b9-3d79-4d5f-9173-f13a0b1eb95b")
+	)
 	(label "IO7"
 		(at 144.78 69.85 0)
 		(effects
@@ -8605,16 +8525,6 @@
 			(justify left bottom)
 		)
 		(uuid "170df489-b803-431c-b00b-f3da2f979a17")
-	)
-	(label "IO22"
-		(at 41.91 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18deacda-de90-4d7c-8ee5-074046e2ccf8")
 	)
 	(label "5V_USB"
 		(at 21.59 30.48 180)
@@ -8638,26 +8548,6 @@
 		)
 	)
 	(label "IO3"
-		(at 222.25 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f2dc355-af80-4a9a-bbcf-dc3004bcc532")
-	)
-	(label "GND"
-		(at 41.91 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21fda51a-3ee8-4280-8171-a5dbd84dae9e")
-	)
-	(label "IO3"
 		(at 144.78 59.69 0)
 		(effects
 			(font
@@ -8666,6 +8556,16 @@
 			(justify left bottom)
 		)
 		(uuid "23345b7e-3372-4d81-b90e-dba4da88b490")
+	)
+	(label "+3.3V"
+		(at 20.32 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23626cfc-6bb7-47c8-a7f9-943155dff89e")
 	)
 	(label "IO22"
 		(at 182.88 77.47 0)
@@ -8718,6 +8618,27 @@
 		)
 		(uuid "397a7497-bac8-4d10-b32b-300d7f951679")
 	)
+	(label "IO1"
+		(at 222.25 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a165038-eeb8-422d-a7d7-34ffe12b9a63")
+		(property "Netclass" "NTC"
+			(at 222.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "24V_FUSED"
 		(at 55.88 38.1 0)
 		(fields_autoplaced yes)
@@ -8759,6 +8680,16 @@
 		)
 		(uuid "4349050f-efbc-46ec-932e-2425bc9e18e6")
 	)
+	(label "EN"
+		(at 140.97 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c35bfc-4cdf-4ea5-95a4-dac9b96ad125")
+	)
 	(label "NC1"
 		(at 38.1 125.73 0)
 		(fields_autoplaced yes)
@@ -8790,8 +8721,29 @@
 		)
 		(uuid "4b57e17f-816a-4cf5-aa28-2b410f8aafd2")
 	)
+	(label "IO3"
+		(at 222.25 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "518fbcbc-eff6-4b5d-870c-5f4fa76e1d59")
+		(property "Netclass" "NTC"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "IO18"
-		(at 26.67 142.24 0)
+		(at 24.13 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8799,16 +8751,6 @@
 			(justify left bottom)
 		)
 		(uuid "530bfe6b-430f-4e6c-b6f4-49c124e49359")
-	)
-	(label "IO5"
-		(at 222.25 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53bbc004-3258-401d-9e72-60deac8be9cd")
 	)
 	(label "TXD0"
 		(at 182.88 46.99 0)
@@ -8850,16 +8792,6 @@
 		)
 		(uuid "5bdeea36-c973-468d-958a-e685d3a0c5ac")
 	)
-	(label "IO2"
-		(at 20.32 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60867d76-6312-4b27-bf7b-285c616fba14")
-	)
 	(label "IO23"
 		(at 182.88 80.01 0)
 		(effects
@@ -8869,6 +8801,16 @@
 			(justify left bottom)
 		)
 		(uuid "6888b5c0-bf49-4426-b914-c838d6454cbe")
+	)
+	(label "IO0"
+		(at 83.82 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "693676cd-f520-4371-aa8b-5a59bff992fd")
 	)
 	(label "NO2"
 		(at 95.25 120.65 0)
@@ -8891,16 +8833,6 @@
 			)
 		)
 	)
-	(label "RXD0"
-		(at 41.91 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f375753-8732-427a-b968-caf7c1c0bf27")
-	)
 	(label "IO14"
 		(at 166.37 181.61 0)
 		(effects
@@ -8910,16 +8842,6 @@
 			(justify left bottom)
 		)
 		(uuid "7070849d-b1b2-41b5-a3da-fb04c5a1cfc0")
-	)
-	(label "GND"
-		(at 20.32 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76af083a-ffc1-4230-bbda-95ccfca9db66")
 	)
 	(label "IO9"
 		(at 144.78 74.93 0)
@@ -8941,15 +8863,15 @@
 		)
 		(uuid "7b12e0cc-c209-40ad-8713-9e98cb62db08")
 	)
-	(label "IO0"
-		(at 20.32 179.07 0)
+	(label "IO22"
+		(at 20.32 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7b2c2321-0a36-4c90-9737-04319fd549b2")
+		(uuid "7c15afe3-77bc-4865-a916-babd6712a4a7")
 	)
 	(label "USB_D_N"
 		(at 190.5 54.61 180)
@@ -8960,6 +8882,28 @@
 			(justify right bottom)
 		)
 		(uuid "7eb384e6-1456-423d-8281-65101df43d85")
+	)
+	(label "5V_USB"
+		(at 83.82 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82353e0f-0243-4c2d-af14-0cd227a7039b")
+		(property "Netclass" "Power"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "IO15"
 		(at 182.88 62.23 0)
@@ -8991,16 +8935,6 @@
 		)
 		(uuid "8fd285c4-d547-483a-a541-fb595c797125")
 	)
-	(label "IO4"
-		(at 222.25 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90361c14-46b2-4edc-bb27-2e6e0eb879b0")
-	)
 	(label "IO14"
 		(at 182.88 59.69 0)
 		(effects
@@ -9031,16 +8965,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "IO1"
-		(at 222.25 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94727ff9-89ff-410b-9eeb-655465927ad3")
 	)
 	(label "+3.3V"
 		(at 71.12 31.75 0)
@@ -9115,8 +9039,18 @@
 			)
 		)
 	)
+	(label "TXD0"
+		(at 20.32 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5310a43-79d5-4c6c-ac0d-f55c46b060bf")
+	)
 	(label "IO19"
-		(at 82.55 142.24 0)
+		(at 77.47 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9156,16 +9090,6 @@
 			)
 		)
 	)
-	(label "+5V"
-		(at 20.32 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5d7249e-ea5e-42d4-86a3-2f6a80ff7504")
-	)
 	(label "IO2"
 		(at 144.78 57.15 0)
 		(effects
@@ -9176,15 +9100,44 @@
 		)
 		(uuid "c64d4df4-c97c-4aae-98e7-bf9cc6bc1c9f")
 	)
-	(label "+3.3V"
-		(at 41.91 176.53 0)
+	(label "IO5"
+		(at 222.25 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d2d85e53-aa21-4075-aaca-dd8309cec639")
+		(uuid "c8e3623a-ad85-4be6-b6b6-cadf2f0db910")
+		(property "Netclass" "NTC"
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(label "EN"
+		(at 60.96 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe6fdc6-6d79-4075-8f8d-21c38bb7db90")
+	)
+	(label "RXD0"
+		(at 20.32 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3fa2996-c82b-4ab4-b5ec-80f57a0bf0d3")
 	)
 	(label "IO1"
 		(at 144.78 54.61 0)
@@ -9226,6 +9179,16 @@
 		)
 		(uuid "e35b48da-f5d6-4028-a8c6-5d17f8cb241a")
 	)
+	(label "TXD0"
+		(at 60.96 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee7b22d4-ee57-4f6d-8138-fcd678cb39b8")
+	)
 	(label "IO18"
 		(at 182.88 67.31 0)
 		(effects
@@ -9236,25 +9199,44 @@
 		)
 		(uuid "ef32bd12-5bf7-40a5-80e4-827f3257e76f")
 	)
-	(label "IO21"
-		(at 41.91 184.15 0)
+	(label "GND"
+		(at 20.32 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f447d92f-0576-42b4-804e-b38244638f67")
+		(uuid "efd41c9c-0c0e-4c08-9ac0-6bea4c5a3723")
 	)
-	(label "TXD0"
-		(at 41.91 179.07 0)
+	(label "IO4"
+		(at 222.25 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fa8463af-acd0-4c2e-98a3-9b4b1f692a9c")
+		(uuid "f3b78117-d88f-47d2-b4a0-94ff9ae06bb8")
+		(property "Netclass" "NTC"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(label "+5V"
+		(at 20.32 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbd8ee0c-9ccf-4815-8c99-84b1ab01c2d7")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9266,7 +9248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a20489-c76a-4534-9c32-ea93da214e9b")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 231.521 72.4478 0)
 			(effects
 				(font
@@ -9284,7 +9266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 77.47 0)
 			(effects
 				(font
@@ -9311,7 +9293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C541406"
+		(property "LCSC Part #" "C24497"
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -9321,15 +9303,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 228.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -9383,7 +9356,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -9401,7 +9392,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9548,7 +9539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07bbf7a1-87e8-430d-942d-42ec05e9a7d4")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 196.85 90.0895 0)
 			(effects
 				(font
@@ -9609,15 +9600,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 193.04 91.44 0)
 			(effects
@@ -9663,7 +9645,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -9681,7 +9681,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a2e8f44-410c-4d3c-86b5-feba3ae8b81b")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 87.5495 76.2 90)
 			(effects
 				(font
@@ -9815,6 +9815,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1db31892-4c46-4f96-81e6-2019a5a61053")
 		)
@@ -9824,7 +9851,73 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R13")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 248.92 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dc8536d-72c7-499a-bce0-caea85d57060")
+		(property "Reference" "#PWR07"
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 248.92 25.0769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684e6591-5d37-49d4-a5e0-c35a01605894")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9840,7 +9933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "109ae656-4c74-425c-817b-fb3afd0e1d9c")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 254 34.2899 0)
 			(effects
 				(font
@@ -9894,6 +9987,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d822a99f-6007-4663-8b37-c59aa0771984")
 		)
@@ -9903,7 +10023,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9918,7 +10038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "130a7676-da98-4086-8bfb-3ec82182dda3")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 276.86 96.1855 0)
 			(effects
 				(font
@@ -9926,7 +10046,7 @@
 				)
 			)
 		)
-		(property "Value" "flow_meter"
+		(property "Value" "SRD-05VDC-SL-C"
 			(at 276.86 98.6098 0)
 			(effects
 				(font
@@ -9971,15 +10091,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 275.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 275.59 105.41 0)
 			(effects
 				(font
@@ -10033,6 +10144,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2915640"
+			(at 275.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 275.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
 			(at 275.59 105.41 0)
 			(effects
@@ -10042,7 +10171,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2915640"
+		(property "LCSC" ""
 			(at 275.59 105.41 0)
 			(effects
 				(font
@@ -10063,7 +10192,7 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10145,7 +10274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1923f16b-012f-4776-b445-27f3299c8019")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 128.651 49.5878 0)
 			(effects
 				(font
@@ -10208,15 +10337,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 125.73 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 125.73 50.8 0)
 			(effects
@@ -10262,7 +10382,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 125.73 50.8 0)
 			(effects
 				(font
@@ -10280,7 +10418,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10361,7 +10499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1acdbe7f-232b-4c66-b4c1-7dfd52c2183e")
-		(property "Reference" "D4"
+		(property "Reference" "D7"
 			(at 189.23 83.82 90)
 			(effects
 				(font
@@ -10432,15 +10570,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 185.42 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 185.42 83.82 90)
 			(effects
@@ -10486,7 +10615,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 185.42 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 185.42 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 185.42 83.82 90)
 			(effects
 				(font
@@ -10504,7 +10651,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10583,15 +10730,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 125.73 43.18 0)
 			(effects
@@ -10637,7 +10775,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 125.73 43.18 0)
 			(effects
 				(font
@@ -10737,7 +10893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc36ced-0be8-4dab-a746-3e35bec13e29")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -10753,7 +10909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 146.05 0)
 			(effects
 				(font
@@ -10780,6 +10936,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2128"
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29a3531b-f809-490f-9442-1863809cd10c")
 		)
@@ -10789,7 +10981,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10805,7 +10997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b34fb3-e0e7-48fc-913d-ee7197125b8b")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 218.948 106.7378 0)
 			(effects
 				(font
@@ -10868,15 +11060,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 217.17 107.95 0)
 			(effects
@@ -10922,7 +11105,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -10940,7 +11141,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11020,15 +11221,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 118.11 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 118.11 52.07 90)
 			(effects
@@ -11074,7 +11266,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 118.11 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 118.11 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 118.11 52.07 90)
 			(effects
 				(font
@@ -11093,6 +11303,263 @@
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "284de038-b950-4cbe-9c8e-7afa89e4401e")
+		(property "Reference" "C4"
+			(at 135.001 30.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/50V"
+			(at 127.508 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.0452 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GMC31X7R475K50NT"
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" "4713-GMC31X7R475K50NTCT-ND"
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72def4bb-ab6b-43e1-8898-87c17e42e638")
+		)
+		(pin "2"
+			(uuid "9c434068-daaa-4053-9aaf-75e27a7f3ba8")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TC2030")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f1879b7-923b-4f9f-af79-1b3e8571688f")
+		(property "Reference" "J5"
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2030"
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect’s 6-pins connector"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2e28360c-68d1-453a-afe3-1da416836b2e")
+		)
+		(pin "3"
+			(uuid "c4cd56a1-ed90-4f2e-ab4a-8b98808df0e3")
+		)
+		(pin "5"
+			(uuid "6f65c636-2895-4624-a8ee-37be0717a8fb")
+		)
+		(pin "6"
+			(uuid "949ab505-4021-4ef3-bca6-853ee170d53a")
+		)
+		(pin "1"
+			(uuid "328503cb-04d1-48dd-b55e-981b8f30cb73")
+		)
+		(pin "2"
+			(uuid "72e1b21f-61ed-4e12-8ee2-0c071c258d17")
+		)
+		(instances
+			(project ""
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11160,6 +11627,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d0588e48-21df-44e7-a2bd-8fc6eec33608")
 		)
@@ -11188,7 +11682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35f05131-6203-4731-b6b8-a5f59b6ed0b6")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 241.3 35.5599 0)
 			(effects
 				(font
@@ -11242,6 +11736,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22887dd3-eda9-41f4-b02a-16c8651590a7")
 		)
@@ -11251,42 +11772,41 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 53.34 181.61 0)
-		(mirror y)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 194.31 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "3b53b085-45e0-4adf-a5c7-246f02635bfc")
+		(dnp no)
+		(uuid "3b5a66ad-d88d-4410-a1a5-bd9ae2e76fc4")
 		(property "Reference" "J9"
-			(at 52.705 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Shielded"
-			(at 50.8 184.1499 0)
+			(at 196.85 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 53.34 181.61 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 196.85 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +11815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 181.61 0)
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,8 +11823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 53.34 181.61 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,23 +11832,47 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "aaac7a0f-dc42-4e60-a958-bff032be2294")
+		(property "LCSC Part #" "C2915639"
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "4b771bef-e845-4f7e-b5e1-4071db733eaf")
+		(property "Sim.Type" ""
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "a3880957-e358-45e2-a839-5ef7fbfe0357")
+		(property "JLCPCB Part #" ""
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "7651ff76-6e75-486d-b95f-9440c04c10b9")
+		(property "LCSC" ""
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "14b651c3-6543-443c-b4e2-942a942d82bf")
+			(uuid "724758e7-c05e-435f-bead-75d407feac10")
 		)
-		(pin "4"
-			(uuid "b4003f95-08d8-470b-8352-9311598e0912")
+		(pin "1"
+			(uuid "284e8dcf-f4a3-43a6-977e-4eaa2187d1a4")
 		)
 		(instances
 			(project "watermeter"
@@ -11349,7 +11893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7fcd6f-09f5-4e33-aa47-bcf76d1f05e7")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 68.58 93.9799 0)
 			(effects
 				(font
@@ -11403,6 +11947,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5358268-394b-4361-992f-0d5cef6a784f")
 		)
@@ -11412,7 +11983,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11494,7 +12065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "404d3b40-68ae-45e6-a4d3-695831a05ca0")
-		(property "Reference" "R4"
+		(property "Reference" "R18"
 			(at 130.048 171.5078 0)
 			(effects
 				(font
@@ -11540,15 +12111,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 128.27 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 128.27 172.72 0)
 			(effects
 				(font
@@ -11611,7 +12173,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 128.27 172.72 0)
 			(effects
 				(font
@@ -11629,7 +12209,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R4")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11645,7 +12225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b25807-9a13-4eb5-86a2-3250a89795c6")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 231.521 49.5878 0)
 			(effects
 				(font
@@ -11663,7 +12243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 54.61 0)
 			(effects
 				(font
@@ -11690,7 +12270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C541406"
+		(property "LCSC Part #" "C24497"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -11700,15 +12280,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 228.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -11762,7 +12333,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -11780,7 +12369,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11928,7 +12517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "484aa2c4-920c-46ac-af14-8355a84fddaf")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 231.521 61.0178 0)
 			(effects
 				(font
@@ -11946,7 +12535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 66.04 0)
 			(effects
 				(font
@@ -11973,7 +12562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C541406"
+		(property "LCSC Part #" "C24497"
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -11983,15 +12572,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 228.6 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -12045,7 +12625,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -12063,7 +12661,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12116,6 +12714,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -12180,6 +12805,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -12261,6 +12913,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 279.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 279.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 279.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "56054a76-0162-477e-af95-ced32a218fd3")
 		)
@@ -12304,7 +12983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55565cfa-e1c6-40a8-a600-b100a3a72a0e")
-		(property "Reference" "OC2"
+		(property "Reference" "OC1"
 			(at 144.78 170.18 0)
 			(effects
 				(font
@@ -12359,6 +13038,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3f331fd6-22f2-498b-86b4-95c8f3c2d350")
 		)
@@ -12377,223 +13083,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "OC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 128.27 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57a0276b-490d-4747-9476-4c5759e49396")
-		(property "Reference" "J6"
-			(at 132.334 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PWM_IN"
-			(at 123.698 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY Part #" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2915639"
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9cbbd5f-d22f-4a8b-bac8-34aa22a370e0")
-		)
-		(pin "2"
-			(uuid "1cc984c9-418e-470b-8417-473955fe2799")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 247.65 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ad046c1-d4ef-462f-b948-fc4930b00577")
-		(property "Reference" "#PWR07"
-			(at 247.65 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 247.65 22.5369 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c37c7ad-f8ac-4c5f-bd97-a4e7cc958ad6")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "#PWR07")
+					(reference "OC1")
 					(unit 1)
 				)
 			)
@@ -12608,7 +13098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bba8a06-b205-4827-885d-613013c19699")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 189.23 90.0895 0)
 			(effects
 				(font
@@ -12616,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "270R"
 			(at 189.23 92.202 0)
 			(effects
 				(font
@@ -12624,7 +13114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Digikey library:LED_0603"
 			(at 183.642 91.44 90)
 			(effects
 				(font
@@ -12651,7 +13141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17544"
+		(property "LCSC Part #" "C22966"
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -12661,15 +13151,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -12723,7 +13204,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -12741,116 +13240,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 36.83 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f007f4c-f07e-470d-b71d-932c5b06a780")
-		(property "Reference" "Q1"
-			(at 41.91 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 41.91 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 36.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 36.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 36.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 36.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C150982"
-			(at 36.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec593895-06d7-48fc-aacf-66bf8b5dda9c")
-		)
-		(pin "2"
-			(uuid "b26ecfcd-dcb4-4dab-96e8-306b9292f77b")
-		)
-		(pin "3"
-			(uuid "9a67d177-1746-41fd-867b-89424a039c59")
-		)
-		(instances
-			(project ""
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "Q1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12865,7 +13255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "613a53a6-01e3-40a7-a3a8-98eb0588ad5d")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 76.2 75.946 0)
 			(effects
 				(font
@@ -12922,6 +13312,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "115b6646-32db-40fd-97a8-344152648f66")
 		)
@@ -12943,7 +13360,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12959,7 +13376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c3e744-257a-48a7-bca1-2d55248ef104")
-		(property "Reference" "R19"
+		(property "Reference" "R8"
 			(at 263.398 109.2778 0)
 			(effects
 				(font
@@ -13005,15 +13422,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 261.62 110.49 0)
 			(effects
 				(font
@@ -13076,7 +13484,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 110.49 0)
 			(effects
 				(font
@@ -13094,7 +13520,73 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R19")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 87.63 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6243ccd2-e337-4be6-9a01-15b035883003")
+		(property "Reference" "#PWR018"
+			(at 87.63 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 87.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d975201a-0705-4a68-81df-aa6a9b7aa341")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13155,6 +13647,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
@@ -13172,9 +13691,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ce3af4a-67ad-417e-a32e-0419c8abefdb")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 145.161 30.5378 0)
 			(effects
 				(font
@@ -13183,8 +13701,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/6.3v"
-			(at 145.161 32.9621 0)
+		(property "Value" "0.1uF"
+			(at 139.192 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 143.2052 35.56 0)
 			(effects
 				(font
@@ -13219,7 +13737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1854118"
+		(property "LCSC Part #" "C24497"
 			(at 142.24 31.75 0)
 			(effects
 				(font
@@ -13229,15 +13747,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 142.24 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 142.24 31.75 0)
 			(effects
 				(font
@@ -13291,7 +13800,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 142.24 31.75 0)
 			(effects
 				(font
@@ -13309,7 +13836,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13324,7 +13851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6da6a388-cbac-40cc-b342-be6be67dc778")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 196.342 83.566 90)
 			(effects
 				(font
@@ -13395,15 +13922,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 193.04 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 193.04 83.82 90)
 			(effects
@@ -13449,7 +13967,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 193.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 193.04 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 193.04 83.82 90)
 			(effects
 				(font
@@ -13467,224 +14003,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 45.72 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e939f32-c912-4672-9378-428050b4ee7e")
-		(property "Reference" "#PWR032"
-			(at 45.72 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 45.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01c1808b-4b11-4230-9751-2584a38b0c20")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 194.31 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "722cbb7d-e538-4aea-82b7-64450680411c")
-		(property "Reference" "J7"
-			(at 190.246 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PWM_OUT"
-			(at 184.15 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY Part #" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2915639"
-			(at 194.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f21ace-f157-4039-8f64-03aad3bb857d")
-		)
-		(pin "2"
-			(uuid "87dac5b7-fea9-4291-9dc9-dfb67b39c7bd")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13758,7 +14077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 24.13 190.5 0)
+		(at 24.13 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13767,7 +14086,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a233094-64df-409a-ba47-ece29d5170ec")
 		(property "Reference" "#PWR09"
-			(at 24.13 196.85 0)
+			(at 24.13 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +14095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 195.58 0)
+			(at 24.13 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13784,7 +14103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 190.5 0)
+			(at 24.13 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13793,7 +14112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 190.5 0)
+			(at 24.13 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13802,7 +14121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 24.13 190.5 0)
+			(at 24.13 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,88 +14136,6 @@
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 31.75 181.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7d9cc2c2-1436-44c3-8bd1-740263c984f9")
-		(property "Reference" "J4"
-			(at 31.115 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Shielded"
-			(at 29.21 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 31.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 31.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2cae14df-2365-4863-95b1-9240eb52f0e3")
-		)
-		(pin "1"
-			(uuid "2bdcf7ea-8a6c-463d-a619-2cea4a0a64eb")
-		)
-		(pin "5"
-			(uuid "bbdbf74e-6cd0-49f4-b62e-6553bc6c158d")
-		)
-		(pin "6"
-			(uuid "9c6fa5f6-c682-403d-aa0a-408c381d01d4")
-		)
-		(pin "2"
-			(uuid "0e04e3af-46b8-4f87-a942-dad49ccc7792")
-		)
-		(pin "4"
-			(uuid "77460696-633d-4b99-a3e4-20a2e85236ae")
-		)
-		(instances
-			(project ""
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14038,6 +14275,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:PDTD123YK")
+		(at 38.1 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82712f99-e90d-46ea-9c24-19c6da3fb08d")
+		(property "Reference" "Q2"
+			(at 44.45 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PDTD123YK"
+			(at 44.45 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SC-59"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/00d100fbe85007aed9283e335777de9e/PDTD123Y_SER.pdf"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SC-59 Pre-Biased transistor, 50V, 500mA, 250mW, Alternate KiCAD Library"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295450"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05fc9cbd-d38c-4aaa-a62a-9381edf44fd3")
+		)
+		(pin "2"
+			(uuid "f3b34e1c-a5b1-4e9b-bcd7-0eb0cead6655")
+		)
+		(pin "3"
+			(uuid "97661dd1-7418-4a31-bdfd-d399375ed096")
+		)
+		(instances
+			(project ""
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 257.81 39.37 0)
 		(unit 1)
@@ -14047,7 +14366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e1ff7a-26b0-4641-ad84-18fa561ca850")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 260.35 38.0999 0)
 			(effects
 				(font
@@ -14101,6 +14420,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2c0b7f0-b7cd-4dd5-9b91-dbc866527aee")
 		)
@@ -14110,7 +14456,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14126,7 +14472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b173e3b-a81c-4c3a-833f-2d0129d6449e")
-		(property "Reference" "R18"
+		(property "Reference" "R7"
 			(at 263.398 116.8978 0)
 			(effects
 				(font
@@ -14172,15 +14518,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 261.62 118.11 0)
 			(effects
 				(font
@@ -14243,7 +14580,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 118.11 0)
 			(effects
 				(font
@@ -14261,7 +14616,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R18")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bd16ec9-4964-42d4-ae6b-5c4178d32663")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 237.49 105.0755 0)
 			(effects
 				(font
@@ -14284,7 +14639,7 @@
 				)
 			)
 		)
-		(property "Value" "DHT21"
+		(property "Value" "SRD-05VDC-SL-C"
 			(at 237.49 107.4998 0)
 			(effects
 				(font
@@ -14329,15 +14684,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 236.22 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 236.22 114.3 0)
 			(effects
 				(font
@@ -14391,6 +14737,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2915640"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
 			(at 236.22 114.3 0)
 			(effects
@@ -14400,7 +14764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2915640"
+		(property "LCSC" ""
 			(at 236.22 114.3 0)
 			(effects
 				(font
@@ -14421,7 +14785,113 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J8")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 31.75 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8be4d51b-e0b4-422c-81a2-7c5b1d876401")
+		(property "Reference" "J4"
+			(at 33.02 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 27.94 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f910a996-2626-4eee-ba27-3449e29567ab")
+		)
+		(pin "3"
+			(uuid "f30e501a-6ed7-492b-ba5e-8dedd4160e2e")
+		)
+		(pin "6"
+			(uuid "5d0a38bb-2a1a-42a1-86c4-0d6e59cf4ec1")
+		)
+		(pin "8"
+			(uuid "416b6c2b-8ca3-457f-8bfa-9ecd04a86be3")
+		)
+		(pin "5"
+			(uuid "3ffd767d-65a4-4621-ac4f-033e29804113")
+		)
+		(pin "4"
+			(uuid "d50fb37b-a783-4065-a16c-448832ddf08f")
+		)
+		(pin "7"
+			(uuid "1de91b90-6501-4e19-8d0c-1fa91b932948")
+		)
+		(pin "1"
+			(uuid "d1d15033-e310-4e4e-8241-0628cb162c7b")
+		)
+		(instances
+			(project ""
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14437,7 +14907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d014829-471f-4d22-b3cc-77d54566f575")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 167.2433 40.3055 0)
 			(effects
 				(font
@@ -14500,15 +14970,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" ""
 			(at 165.1 67.31 0)
 			(effects
@@ -14554,7 +15015,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -14725,7 +15204,7 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14797,6 +15276,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:PDTD123YK")
+		(at 91.44 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94bd538c-b2f1-4ddd-90f8-6a47ba8c09ca")
+		(property "Reference" "Q1"
+			(at 97.79 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PDTD123YK"
+			(at 97.79 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SC-59"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/00d100fbe85007aed9283e335777de9e/PDTD123Y_SER.pdf"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SC-59 Pre-Biased transistor, 50V, 500mA, 250mW, Alternate KiCAD Library"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295450"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ed5cc6-d21d-4f9a-9782-ffb8346bbad7")
+		)
+		(pin "2"
+			(uuid "69ee013e-740a-4dfa-9d87-5bf2f51d1614")
+		)
+		(pin "3"
+			(uuid "82952aad-0c26-4a2c-963c-0ff229fac60b")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 54.61 146.05 0)
 		(unit 1)
@@ -14806,7 +15367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991ed791-2175-41bd-8ed1-cfe7bcaad2d3")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -14822,7 +15383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 54.61 146.05 0)
 			(effects
 				(font
@@ -14849,6 +15410,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2128"
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d33262fd-3d67-453f-bf37-33a0dea933c7")
 		)
@@ -14858,7 +15455,7 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14874,7 +15471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af58d94-32ef-4b82-8ccd-f7517fe3ac11")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 20.32 96.5199 0)
 			(effects
 				(font
@@ -14928,6 +15525,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 17.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a015058-86d5-4ac8-96c9-63852544d868")
 		)
@@ -14937,7 +15561,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15019,7 +15643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c55f434-1d16-4350-9bae-296285857d74")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 185.42 115.5699 0)
 			(effects
 				(font
@@ -15073,6 +15697,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31a04bf3-b2f6-459f-ba1b-924f8503d5c7")
 		)
@@ -15082,7 +15733,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15230,7 +15881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a41b45-d9f1-4caf-b406-2e3e353caf0f")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 247.65 39.3699 0)
 			(effects
 				(font
@@ -15284,6 +15935,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "747539a7-88cd-4aa8-b524-520a6b34f49c")
 		)
@@ -15293,7 +15971,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15420,6 +16098,33 @@
 			)
 		)
 		(property "LCSC Part #" "C35449"
+			(at 110.49 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 110.49 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 110.49 128.27 90)
 			(effects
 				(font
@@ -15595,7 +16300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc16ac6-eff4-4f57-9af3-e2b8b1417ea2")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 166.37 175.2599 0)
 			(effects
 				(font
@@ -15649,6 +16354,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46dfc5f3-ca9d-4377-9f67-7dabf4cb08ab")
 		)
@@ -15658,7 +16390,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15719,6 +16451,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
@@ -15738,7 +16497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9494ea9-240c-410a-91a1-6fd4c31155e0")
-		(property "Reference" "C14"
+		(property "Reference" "C1"
 			(at 160.02 30.4799 0)
 			(effects
 				(font
@@ -15756,7 +16515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.1752 35.56 0)
 			(effects
 				(font
@@ -15783,7 +16542,34 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5189825"
+		(property "LCSC Part #" "C96123"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 156.21 31.75 0)
 			(effects
 				(font
@@ -15801,7 +16587,7 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C14")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15817,7 +16603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba648ef7-680c-408f-bbc0-b166bae9051d")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 231.521 83.8778 0)
 			(effects
 				(font
@@ -15835,7 +16621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 88.9 0)
 			(effects
 				(font
@@ -15862,7 +16648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C541406"
+		(property "LCSC Part #" "C24497"
 			(at 228.6 85.09 0)
 			(effects
 				(font
@@ -15872,15 +16658,6 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 228.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 228.6 85.09 0)
 			(effects
 				(font
@@ -15934,7 +16711,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB Part #" ""
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 85.09 0)
 			(effects
 				(font
@@ -15952,7 +16747,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16034,7 +16829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9bc1ae6-c96b-4761-804a-3a9167bdfede")
-		(property "Reference" "OC1"
+		(property "Reference" "OC2"
 			(at 163.83 110.49 0)
 			(effects
 				(font
@@ -16089,6 +16884,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f978182f-e6cf-4e85-a579-3c18f12123cf")
 		)
@@ -16107,7 +16929,7 @@
 		(instances
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "OC1")
+					(reference "OC2")
 					(unit 1)
 				)
 			)
@@ -16181,7 +17003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 95.25 147.32 0)
+		(at 95.25 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16190,7 +17012,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb825c75-fb7c-4218-8693-4728f96b92d9")
 		(property "Reference" "#PWR029"
-			(at 95.25 153.67 0)
+			(at 95.25 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16199,7 +17021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 152.4 0)
+			(at 95.25 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +17029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 147.32 0)
+			(at 95.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16216,7 +17038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 147.32 0)
+			(at 95.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,7 +17047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 95.25 147.32 0)
+			(at 95.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16312,16 +17134,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 132.08 31.75 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 128.27 163.83 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0f6c9cb-142f-4fe6-ae42-8ac9fc03d0b7")
-		(property "Reference" "C7"
-			(at 135.001 30.5378 0)
+		(uuid "cc684d9c-ccc2-4d6a-9108-dfb03febf2c6")
+		(property "Reference" "J8"
+			(at 129.794 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,8 +17152,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
-			(at 126.746 33.782 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 123.19 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,8 +17161,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 133.0452 35.56 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16348,7 +17171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 31.75 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,8 +17179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 132.08 31.75 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,8 +17188,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C577214"
-			(at 132.08 31.75 0)
+		(property "LCSC Part #" "C2915639"
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,62 +17197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY Part #" ""
-			(at 132.08 31.75 0)
+		(property "Sim.Type" ""
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16438,7 +17207,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 132.08 31.75 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16446,16 +17215,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6982f00b-98c2-4a89-acc0-b47defe97bc3")
+		(property "LCSC" ""
+			(at 128.27 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "94189563-a469-458d-9a9b-a5a353f1a51c")
+			(uuid "93c67f1b-7d8a-4018-aa79-ce0edaa6d501")
+		)
+		(pin "1"
+			(uuid "831e1368-1e16-4431-b1a0-1aa4f05fbb64")
 		)
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "C7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -16463,7 +17241,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 125.73 27.94 0)
+		(at 142.24 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16472,7 +17250,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ac732e-d073-45ac-901b-2e9be69b8c67")
 		(property "Reference" "#PWR05"
-			(at 125.73 31.75 0)
+			(at 142.24 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16481,7 +17259,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 125.73 23.8069 0)
+			(at 142.24 23.8069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16489,7 +17267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,7 +17276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +17285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16656,6 +17434,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dac00b4c-a347-4f23-bc0b-743ab43bf073")
 		)
@@ -16735,6 +17540,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 88.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 88.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2c94c7d-0848-47a8-928e-d3975f928e13")
 		)
@@ -16752,7 +17584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 39.37 147.32 0)
+		(at 41.91 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16761,7 +17593,7 @@
 		(fields_autoplaced yes)
 		(uuid "eee988cb-83b2-4236-b021-c22d9db11c78")
 		(property "Reference" "#PWR027"
-			(at 39.37 153.67 0)
+			(at 41.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +17602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 152.4 0)
+			(at 41.91 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16778,7 +17610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 147.32 0)
+			(at 41.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16787,7 +17619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 147.32 0)
+			(at 41.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16796,7 +17628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 39.37 147.32 0)
+			(at 41.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16825,7 +17657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f083f3f4-129e-446a-b776-3befe2fb90ee")
-		(property "Reference" "J11"
+		(property "Reference" "J7"
 			(at 41.91 65.7055 0)
 			(effects
 				(font
@@ -16919,7 +17751,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "LCSC Part #" "C165948"
 			(at 41.91 82.55 0)
 			(effects
 				(font
@@ -16928,7 +17760,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165948"
+		(property "Sim.Type" ""
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 41.91 82.55 0)
 			(effects
 				(font
@@ -16988,7 +17838,7 @@
 		(instances
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "J11")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -17057,6 +17907,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 54.61 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 54.61 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 54.61 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "504b77ae-36eb-40ca-bde3-3a4e43e2c945")
 		)
@@ -17076,115 +17953,6 @@
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 92.71 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f695b435-f426-4468-8df4-9df24187a8de")
-		(property "Reference" "Q2"
-			(at 97.79 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 97.79 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C150982"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e56cda48-997d-4178-9bad-972d08d7ab66")
-		)
-		(pin "2"
-			(uuid "86b13a83-9f46-4b48-9cfa-2a836d804afb")
-		)
-		(pin "3"
-			(uuid "4598f9a8-4798-4553-9a81-efa1e32d5ba9")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
