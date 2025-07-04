@@ -2824,6 +2824,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Transistor_BJT_AKL:MMBT2222A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT2222A"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/fd53f7282772c4b53c43aa6dcf874bac/mmbt2222.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN SOT-23 transistor, 40V, 600mA, 225mW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NPN 2N2222A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT2222A_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMBT2222A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Transistor_BJT_Pre-Biased_AKL:PDTD123YK"
 			(pin_names
 				(hide yes)
@@ -6027,12 +6207,6 @@
 		(uuid "154322c3-2bf4-4e7f-b42e-91afd1588d5a")
 	)
 	(junction
-		(at 269.24 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21af9ed1-2f52-49bb-801f-998d40e2b010")
-	)
-	(junction
 		(at 137.16 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6123,6 +6297,12 @@
 		(uuid "708fe2bc-13e1-4f27-8126-dbbf3e5ca12c")
 	)
 	(junction
+		(at 255.27 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ebb260-70ad-4fcf-9ff2-2a81e517c89f")
+	)
+	(junction
 		(at 179.07 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6139,12 +6319,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce5c929-5a87-43e0-9cf1-f21598429a4d")
-	)
-	(junction
-		(at 261.62 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f9c3c5a-1fb0-41af-84e0-73e8a0fcdfc7")
 	)
 	(junction
 		(at 46.99 133.35)
@@ -6235,6 +6409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da0484ac-bed6-4d0e-a17e-ae9098a124e4")
+	)
+	(junction
+		(at 259.08 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc20c45-f05c-419f-9756-d6dbcd8d8441")
 	)
 	(junction
 		(at 245.11 69.85)
@@ -6498,6 +6678,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 118.11) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158ce03d-43ea-455a-8455-95705459986a")
+	)
+	(wire
+		(pts
 			(xy 20.32 173.99) (xy 26.67 173.99)
 		)
 		(stroke
@@ -6558,13 +6748,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 105.41) (xy 261.62 106.68)
+			(xy 262.89 101.6) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ed98cab-e9e5-4b24-b558-24c9f9524d35")
+		(uuid "206e2781-c993-43d7-ae76-db3f8330ad71")
 	)
 	(wire
 		(pts
@@ -6615,6 +6805,16 @@
 			(type default)
 		)
 		(uuid "24513848-2493-4b91-850e-2ac29d6c2eee")
+	)
+	(wire
+		(pts
+			(xy 267.97 118.11) (xy 270.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ca80cc-f18d-4fa6-9c21-dacf023061c1")
 	)
 	(wire
 		(pts
@@ -6815,6 +7015,16 @@
 			(type default)
 		)
 		(uuid "43d70989-db95-4e42-bae7-16b3c3af2185")
+	)
+	(wire
+		(pts
+			(xy 255.27 102.87) (xy 255.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44104854-6377-4590-85c8-1f47b919053e")
 	)
 	(wire
 		(pts
@@ -7078,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 102.87) (xy 269.24 101.6)
+			(xy 269.24 115.57) (xy 269.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7095,6 +7305,26 @@
 			(type default)
 		)
 		(uuid "640afbcf-ee69-490c-bbab-6b89bac4aea5")
+	)
+	(wire
+		(pts
+			(xy 269.24 120.65) (xy 270.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c65c6c-e4ba-42a5-aaab-07aa8966c104")
+	)
+	(wire
+		(pts
+			(xy 255.27 101.6) (xy 259.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6573b174-fcfe-48af-bdbf-c398b81230b5")
 	)
 	(wire
 		(pts
@@ -7418,6 +7648,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 101.6) (xy 262.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8567c414-7d69-42f9-8092-c951e8b6db6b")
+	)
+	(wire
+		(pts
 			(xy 92.71 82.55) (xy 104.14 82.55)
 		)
 		(stroke
@@ -7478,6 +7718,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 110.49) (xy 255.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e14c3b6-0dd5-499b-969e-50bf2706feda")
+	)
+	(wire
+		(pts
 			(xy 262.89 57.15) (xy 262.89 69.85)
 		)
 		(stroke
@@ -7508,7 +7758,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 102.87) (xy 269.24 102.87)
+			(xy 270.51 115.57) (xy 269.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7568,16 +7818,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 121.92) (xy 269.24 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf5b716-2f1d-478d-839c-186539b963a7")
-	)
-	(wire
-		(pts
 			(xy 160.02 172.72) (xy 163.83 172.72)
 		)
 		(stroke
@@ -7618,7 +7858,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 114.3) (xy 261.62 114.3)
+			(xy 250.19 118.11) (xy 255.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7675,16 +7915,6 @@
 			(type default)
 		)
 		(uuid "a875defe-f527-4366-8a59-446890cdabff")
-	)
-	(wire
-		(pts
-			(xy 270.51 105.41) (xy 261.62 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94f437a-8494-427f-ba0f-f2ac9b8831d9")
 	)
 	(wire
 		(pts
@@ -7785,16 +8015,6 @@
 			(type default)
 		)
 		(uuid "affca63c-7956-4cf6-8a56-7db1458e909b")
-	)
-	(wire
-		(pts
-			(xy 261.62 121.92) (xy 269.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f0af30-a6f6-4694-93db-ed0c34acaa47")
 	)
 	(wire
 		(pts
@@ -8258,7 +8478,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 107.95) (xy 269.24 121.92)
+			(xy 269.24 120.65) (xy 269.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8368,16 +8588,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 107.95) (xy 270.51 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ef087d-e49e-4e1a-8109-5456d0d9e309")
-	)
-	(wire
-		(pts
 			(xy 179.07 118.11) (xy 176.53 118.11)
 		)
 		(stroke
@@ -8476,8 +8686,8 @@
 		)
 		(uuid "ff286f45-3a1e-4471-883e-13097a13d316")
 	)
-	(label "IO7"
-		(at 254 114.3 0)
+	(label "~{IO7}"
+		(at 250.19 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8516,7 +8726,7 @@
 		)
 		(uuid "1567f6b9-3d79-4d5f-9173-f13a0b1eb95b")
 	)
-	(label "IO7"
+	(label "~{IO7}"
 		(at 144.78 69.85 0)
 		(effects
 			(font
@@ -10031,7 +10241,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 275.59 105.41 0)
+		(at 275.59 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10039,7 +10249,7 @@
 		(dnp no)
 		(uuid "130a7676-da98-4086-8bfb-3ec82182dda3")
 		(property "Reference" "J11"
-			(at 276.86 96.1855 0)
+			(at 276.86 108.8855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10257,7 @@
 			)
 		)
 		(property "Value" "SRD-05VDC-SL-C"
-			(at 276.86 98.6098 0)
+			(at 276.86 111.3098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10265,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10292,7 @@
 			)
 		)
 		(property "CometPartNum" "DW03R"
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10301,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10310,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10319,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10328,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10337,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10346,7 @@
 			)
 		)
 		(property "DIGIKEY Part #" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10355,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2915640"
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10364,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10373,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10382,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 275.59 105.41 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,6 +11352,72 @@
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20dab6fc-b407-494c-ac68-746779275225")
+		(property "Reference" "#PWR019"
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 259.08 97.4669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78fe7925-2cf0-4424-bb0a-8ebfc2a38d58")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 124.46 0)
+		(at 269.24 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12386,7 +12662,7 @@
 		(fields_autoplaced yes)
 		(uuid "4564a671-dd2d-4c41-b864-b8e7a901763e")
 		(property "Reference" "#PWR016"
-			(at 269.24 130.81 0)
+			(at 269.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12671,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 128.5931 0)
+			(at 269.24 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 124.46 0)
+			(at 269.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 124.46 0)
+			(at 269.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 124.46 0)
+			(at 269.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,166 +13643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 261.62 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61c3e744-257a-48a7-bca1-2d55248ef104")
-		(property "Reference" "R8"
-			(at 263.398 109.2778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 263.398 111.7021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 259.842 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17513"
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY Part #" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ac82272-d923-407b-81be-22a0ae387628")
-		)
-		(pin "2"
-			(uuid "d189f188-e3ac-4573-b3ba-f1b0ed039509")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 87.63 185.42 0)
 		(unit 1)
@@ -14011,7 +14127,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 101.6 0)
+		(at 269.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14020,7 +14136,7 @@
 		(fields_autoplaced yes)
 		(uuid "75cea63e-446d-4796-baf9-65c7c686508f")
 		(property "Reference" "#PWR015"
-			(at 269.24 105.41 0)
+			(at 269.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14145,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 269.24 97.4669 0)
+			(at 269.24 110.1669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14037,7 +14153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 101.6 0)
+			(at 269.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14046,7 +14162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 101.6 0)
+			(at 269.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14055,7 +14171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 101.6 0)
+			(at 269.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,166 +14573,6 @@
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 261.62 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b173e3b-a81c-4c3a-833f-2d0129d6449e")
-		(property "Reference" "R7"
-			(at 263.398 116.8978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 263.398 119.3221 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 259.842 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C17604"
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY Part #" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 261.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7696733-76f5-4d03-a72e-bd484a0a85ed")
-		)
-		(pin "2"
-			(uuid "dacfa028-47f4-4c48-90af-f0cecab44052")
-		)
-		(instances
-			(project "watermeter"
-				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15358,6 +15314,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 255.27 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96df0add-7e7b-4b57-9e31-6376bc6bde4d")
+		(property "Reference" "R8"
+			(at 257.048 105.4678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 257.048 107.8921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 253.492 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17414"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00dad5ab-3c17-461f-8603-cd5ba09d5c67")
+		)
+		(pin "2"
+			(uuid "15daeab2-b334-4924-b25e-4d23650ff3f2")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 54.61 146.05 0)
 		(unit 1)
@@ -15456,6 +15572,166 @@
 			(project ""
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99869af7-ad2a-4140-90fb-825f5ebf73c3")
+		(property "Reference" "R7"
+			(at 264.668 105.4678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 264.668 107.8921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 261.112 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17414"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY Part #" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585dabea-e698-49f5-b2bd-5ee1824e1272")
+		)
+		(pin "2"
+			(uuid "e1eabb51-3a91-4b9a-aa36-4230963225b5")
+		)
+		(instances
+			(project "watermeter"
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16748,6 +17024,78 @@
 			(project "watermeter"
 				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:MMBT2222A")
+		(at 262.89 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c680dbb1-4b42-42a2-adf5-6a48600d4926")
+		(property "Reference" "Q3"
+			(at 262.89 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 262.89 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fd53f7282772c4b53c43aa6dcf874bac/mmbt2222.pdf"
+			(at 262.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-23 transistor, 40V, 600mA, 225mW, Alternate KiCAD Library"
+			(at 262.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bb6f3f7b-da48-4cd2-a6ad-65094c9e7e18")
+		)
+		(pin "1"
+			(uuid "d29d1b3a-a531-43cb-a3e9-417d0ba2e510")
+		)
+		(pin "2"
+			(uuid "cd91afc7-24cf-4afc-988f-0d01e93b3efb")
+		)
+		(instances
+			(project ""
+				(path "/606c32de-c78d-4f57-8623-12dddfc87e44"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
