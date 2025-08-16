@@ -62,3 +62,12 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 
 ---
 
+## License
+
+This hardware project is licensed under the **CERN-OHL-P v2** (Permissive).
+- You may use, modify, and distribute the design files.
+- You are free to create derivative works and even release them under a closed license.
+- No warranty is provided.
+
+Full text of the license can be found in the [LICENSE](./LICENSE) file.
+
