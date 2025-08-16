@@ -20,7 +20,7 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 
 ---
 
-## ⚙️ Example Pin Assignment (ESP32-C6-MINI-1 Safe GPIOs)
+## ⚙️ Pin Assignment (ESP32-C6-MINI-1 Safe GPIOs)
 
 | Function                | GPIO Pin | Notes                                      |
 |------------------------|----------|---------------------------------------------|
@@ -44,7 +44,6 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 - NTC sensors are read via the internal ADC1.
 - DHT21 requires at least a 2-second interval between readings.
 - DS18B20 supports multiple sensors on a single 1-Wire bus.
-- Flow sensor input should have a pull-up if not already onboard.
 - PWM input can be measured using capture/timer functionality.
 - PWM output can be generated via LEDC or MCPWM peripheral.
 - Relay outputs can be connected to opto-isolated relay modules.
@@ -63,13 +62,3 @@ This project is a basic controller built around the ESP32-C6-MINI-1, designed fo
 
 ---
 
-## ⚠️ Future Improvements
-
-- Wi-Fi and MQTT communication
-- OTA updates
-- Web interface for configuration and monitoring
-- EEPROM or NVS-based configuration storage
-
-## ToDo:
-PCB: New with at least 0.2mm track width
-NTC: Improve stability and reading
